@@ -1,0 +1,274 @@
+
+.banner{
+    display:block;
+    background: #000000;
+    margin-top: 0px;
+    margin-bottom: auto;
+    margin-left: 0px;
+    margin-right:auto;
+    background-color: black;  
+};
+
+
+
+.textonav{
+    color:white;
+    text-emphasis-color: black;
+    
+}
+.campa{
+    display: flex;
+    flex-wrap: row wrap;
+    justify-content: space-evenly;
+    font-size: 0.6875rem;
+    -webkit-box-flex: 1;
+    flex-direction: column;
+}
+
+ .campa{   
+    background-color: #1d75de;
+    color:white;
+    line-height: 1rem;
+    padding-inline-start: 2.8%;
+    padding-block: 24px ;
+};
+
+
+.campa2{   
+    background-color: #1d75de;
+    color:white;
+    margin-bottom: 0%;
+    line-height: 1rem;
+    padding-inline-start: 2.8%;
+    padding-block: 24px ;
+};
+.campabutton{
+    
+    display: flex;
+    flex-wrap: row wrap;
+    flex-grow: 1;
+
+}
+.icono{
+    display: inline-block;
+}
+.icono{
+    background-position: center top;
+    -webkit-box-flex: 1;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.condiciones{
+    color:white;
+    color:inherit;
+    font-size: x-small;
+}
+
+
+
+.Beneficios{
+    display: flex;
+    flex-wrap: row wrap;
+}
+
+.tituloBen{
+    display: block;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+
+
+
+.icono{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 10%;
+
+}
+.icones{
+    display:flex;
+    background-position: center top;
+    margin-right: 20px;
+    flex-grow: 0;
+    width: 120px;
+    height: 120px;
+    flex-wrap: wrap;
+    align-items: center;
+    image-rendering: auto;
+}
+
+#textoTodoIcono{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 0%;
+}
+#titulo_icono{
+    
+    font-weight: bold;
+    text-align: center;
+    font-size: 1.3rem;
+    
+}
+#text_icono{
+    
+    margin-top: 0%;
+    font-size: 1rem;
+   
+}
+
+
+.planes{
+    display: flex;
+    background-color:gainsboro;
+
+}
+
+.tituloPlanes {
+    margin-top: 1.9rem;
+    font-weight: bold;
+    font-size: 1.3rem;
+    text-align: center;
+    text-emphasis-color: black;
+
+
+}
+
+.planesCards{
+
+    display:  flex;
+    background-color:gainsboro;
+    flex-wrap: wrap;
+    width: 100%;
+
+}
+
+
+.inicioPromo{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: left;
+
+}
+
+.botonInicio1{
+    font-size: small;
+    
+}
+.botonInicio2{
+    font-size: small; 
+}
+ul{
+    list-style: none;
+}
+
+.checks li::before{
+    content: '✓';
+  }
+
+.botonComenzar{
+    display: inline-block;
+    padding: 0px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 10%;
+    align-items: center top;
+    width: 100%;
+}
+
+.footerPromo{
+    display: flex;
+    flex-wrap: wrap;
+    font-size: x-small;
+    margin-top: 10%;
+}
+
+
+footer{
+
+
+    background: #000000;
+    background-color: #000000;  
+    color:white;
+}
+
+footer li{
+    margin-bottom: 1em;
+}
+
+footer li:nth-child(1){
+    opacity: 0.5;
+}
+
+.chile{
+    display: flex;
+    align-content: flex-end;
+    size: 0.1rem;
+}
+
+#a1{
+    font-size: large;
+    opacity: 0.5;
+    font-weight: bold;
+}
+
+#a2{
+    font-weight: bolder;
+}
+
+#a3{
+    font-size: large;
+    font-weight: bold;
+}
+
+.ayudas{
+    display: flex;
+    flex-wrap: wrap;
+
+    color: white;
+    font-weight: bold;
+    text-align: center;
+
+}
+
+
+.b11{
+    background-color: rgb(175, 40, 150);
+
+}
+.b12{
+    background-color: rgb(140, 25, 50);
+}
+.b13{
+    background-color: rgb(176, 98, 57);
+}
+.b21{
+    background-color: rgb(0, 100, 80);
+}
+.b22{
+    background-color: rgb(117, 117, 117);
+}
+
+.b23{
+    background-color: rgb(83, 122, 161);
+}
+.img1{
+    overflow: hidden;
+    transform: rotate(45deg);
+    float:right
+    
+}
+.ayuda{
+    display: block;
+    width: 100%;
+    background:black;
+    background-color: #000000;
+
+}
